@@ -13,24 +13,32 @@
 
     <div id="prompt">
       <form>
-        <h2>How long is your first side?</h2>
-        <label for="x">Side 1</label>
-        <input id="x" type="text">
+        <div id="side1" class="form-group has-error">
+          <h2>How long is your first side?</h2>
+          <label  for="x">Side 1</label>
+          <input id="x" type="text">
+        </div>
 
-        <h2>How long is your second side?</h2>
-        <label for="y">Side 2</label>
-        <input id="y" type="text">
+        <div id="side2" class="form-group has-error">
+          <h2>How long is your second side?</h2>
+          <label for="y">Side 2</label>
+          <input id="y" type="text">
+        </div>
 
-        <h2>How long is your third side?</h2>
-        <label for="z">Side 3</label>
-        <input id="z" type="text">
+        <div id="side3"class="form-group has-error">
+          <h2>How long is your third side?</h2>
+          <label for="z">Side 3</label>
+          <input id="z" type="text">
+        </div>
 
         <button id="submit" type="submit" name="button">Tell me what kind of triangle I am</button>
       </form>
 
     </div>
+
+    <hr>
+
     <div id="answer">
-      
     </div>
   </body>
 </html>
